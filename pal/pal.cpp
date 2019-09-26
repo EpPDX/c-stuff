@@ -40,7 +40,7 @@ int main()
       //gets uppercase letters
       else if (input[i] >= 65 && input[i] <= 90)
       {
-	secondi[count] = input[1]+32;
+	secondi[count] = input[i]+32;
 	count++;
       }
 
